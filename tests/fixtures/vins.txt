@@ -1,0 +1,11 @@
+# Sample VIN file for testing
+
+1M8GDM9AXKP042788
+1HGCM82633A004352
+
+# This one has an incorrect check digit to test for failure
+1M8GDM9A0KP042788
+
+JH4KA7561PC008269
+# Wrong length for testing
+1M8GDM9AXKP04278
