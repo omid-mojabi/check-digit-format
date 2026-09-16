@@ -39,7 +39,6 @@ pipeline {
             post {
                 always {
                     junit 'reports/pytest.xml'
-                    recordCoverage(tools: [[parser: 'COBERTURA', pattern: 'coverage.xml']])
                 }
             }
         }
